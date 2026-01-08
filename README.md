@@ -1,1 +1,1 @@
-# yolo-image-classifier-app
+# YOLO Image Classifier App

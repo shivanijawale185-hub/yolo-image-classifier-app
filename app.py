@@ -5,7 +5,7 @@ import tempfile
 
 st.title("YOLO Image Classification App")
 
-# Load YOLO model
+# Load YOLO model safely
 try:
     model = YOLO("yolo11n-cls.pt")
     model.to("cpu")
